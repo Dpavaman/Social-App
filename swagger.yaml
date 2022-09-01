@@ -24,7 +24,7 @@ paths:
     get : 
       summary : return username, followers and follows
       responses: 
-        '200' : # status code
+        '200' :
           description: returns an object
           content : 
             application/jsom : 
